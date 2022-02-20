@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 193, 255);
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  height: 60%;
+  width: 50%;
+}
+
+#container-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+#container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  border-top: 1px solid grey;
+  height: 20%;
+}
+
+.feeling,
+.humidity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+
+.feeling {
+  border-right: 1px solid grey;
+}
+/* .humidity {
+  border-left: 1px solid grey;
+} */
+
+.degrees {
+  display: flex;
+  flex-direction: row;
+}
+#degrees {
+  font-size: 64px;
+}
+
+#feeling {
+  font-size: 24px;
+}
+
+#humidity {
+  font-size: 24px;
+}
+
+#status {
+  font-size: 32px;
+}
+
+.img-2,
+.img-3 {
+  display: flex;
+  align-items: center;
+  /* justify-items: flex-end; */
+  justify-content: flex-end;
+  width: 25%;
+}
